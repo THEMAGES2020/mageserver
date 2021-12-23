@@ -32,4 +32,4 @@ app.post('/api/messages', (req, res) => {
       });
   });
 
-app.listen(4000,()=>{console.log("server mages")})
+app.listen(process.env.PORT || 4000,()=>{console.log("server mages")})
